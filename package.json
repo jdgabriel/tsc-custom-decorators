@@ -1,0 +1,17 @@
+{
+  "name": "typescript-decorators",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jdgabriel/typescript-decorators.git",
+  "author": "Gabriel Duarte <jds.gabrielduarte@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules ./src/app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2"
+  }
+}
